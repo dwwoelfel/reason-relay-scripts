@@ -1,8 +1,8 @@
 {
-  "name": "reason-scripts",
+  "name": "reason-relay-scripts",
   "version": "0.6.11-0",
-  "description": "Scripts for Create React App with ReasonML.",
-  "repository": "reasonml-community/reason-scripts",
+  "description": "Scripts for Create React App with ReasonML and Relay.",
+  "repository": "dwwoelfel/reason-relay-scripts",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
@@ -52,6 +52,7 @@
     "promise": "7.1.1",
     "react-dev-utils": "^3.0.2",
     "react-error-overlay": "^1.0.9",
+    "react-relay": "^1.3.0",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
     "url-loader": "0.5.9",
