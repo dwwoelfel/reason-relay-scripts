@@ -130,6 +130,10 @@ module.exports = function(
     'bs-jest'
   ];
 
+  const relayDevDeps = [
+    'relay-compiler',
+  ];
+
   const extraDevDeps = [
     ...args,
     ...reasonDevDeps
