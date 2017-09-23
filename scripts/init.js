@@ -43,7 +43,8 @@ module.exports = function(
     build: 'react-scripts build',
     test: 'react-scripts test --env=jsdom',
     eject: 'react-scripts eject',
-    prepare: 'npm link bs-platform'
+    prepare: 'npm link bs-platform',
+    relay: 'relay-compiler --src ./src --schema ./graphql-schema.json'
   };
 
   fs.writeFileSync(
