@@ -1,11 +1,11 @@
 <h1 align="center">
-  <img height="300" src="https://github.com/rrdelaney/reason-scripts/blob/master/docs/cra.png">
+  <img height="300" src="https://github.com/rrdelaney/reason-relay-scripts/blob/master/docs/cra.png">
   <br>
   Reason Scripts
  </h1>
 
 <pre align="center">
-  $ yarn create react-app my-app -- --scripts-version reason-scripts
+  $ yarn create react-app my-app -- --scripts-version reason-relay-scripts
 </pre>
 
 Reason Scripts provides a JS-like development environment for developing web apps with the
@@ -13,9 +13,6 @@ Reason Scripts provides a JS-like development environment for developing web app
 [React](https://facebook.github.io/react). It bootstraps an environment to automatically
 compile all Reason code to JS, provide features like reloading and bundling, and seamlessly
 use JS code from Reason.
-
-[![Build Status](https://travis-ci.org/reasonml-community/reason-scripts.svg?branch=master)](https://travis-ci.org/reasonml-community/reason-scripts)
-[![Build status](https://ci.appveyor.com/api/projects/status/ccnybhby3xbr9022?svg=true)](https://ci.appveyor.com/project/rrdelaney/reason-scripts)
 
 ## Getting Started
 
@@ -27,7 +24,7 @@ To create a new app using Reason and React, run:
 
 ```
 $ npm install -g bs-platform
-$ yarn create react-app <app-name> -- --scripts-version reason-scripts
+$ yarn create react-app <app-name> -- --scripts-version reason-relay-scripts
 $ cd <app-name>
 $ yarn start
 ```
@@ -36,7 +33,7 @@ $ yarn start
 
 ```
 $ npm install -g bs-platform create-react-app
-$ create-react-app <app-name> --scripts-version reason-scripts
+$ create-react-app <app-name> --scripts-version reason-relay-scripts
 $ cd <app-name>
 $ npm start
 ```
@@ -163,7 +160,7 @@ See our full editor integration guide here: https://reasonml.github.io/guide/edi
 
 
 <p><details>
-<summary><b>I don't want reason-scripts to clear my terminal</b></summary>
+<summary><b>I don't want reason-relay-scripts to clear my terminal</b></summary>
 
 Use `FORCE_COLOR=true react-scripts start | cat -` as your start command instead
 </details></p>
