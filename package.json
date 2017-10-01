@@ -1,6 +1,6 @@
 {
   "name": "reason-relay-scripts",
-  "version": "0.6.11-0",
+  "version": "0.6.11-1",
   "description": "Scripts for Create React App with ReasonML and Relay.",
   "repository": "dwwoelfel/reason-relay-scripts",
   "license": "BSD-3-Clause",

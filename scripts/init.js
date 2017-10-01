@@ -44,7 +44,7 @@ module.exports = function(
     test: 'react-scripts test --env=jsdom',
     eject: 'react-scripts eject',
     prepare: 'npm link bs-platform',
-    relay: 'relay-compiler --src ./src --schema ./graphql-schema.json'
+    relay: 'node_modules/\@dww/relay-compiler/bin/relay-compiler --src ./src --schema ./graphql-schema.json'
   };
 
   fs.writeFileSync(
@@ -132,12 +132,13 @@ module.exports = function(
   ];
 
   const relayDevDeps = [
-    'relay-compiler',
+    '@dww/relay-compiler',
   ];
 
   const extraDevDeps = [
     ...args,
-    ...reasonDevDeps
+    ...reasonDevDeps,
+    ...relayDevDeps
   ];
 
   const installMessage = 'Installing ' +
